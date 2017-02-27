@@ -16,6 +16,8 @@
 		221AA5D11E576E420024F66D /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AA5D01E576E420024F66D /* AVCamPreviewView.m */; };
 		221AA5D41E576F810024F66D /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AA5D31E576F810024F66D /* AVCamPhotoCaptureDelegate.m */; };
 		2283708D1E5F409C0023F2D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2283708C1E5F409C0023F2D4 /* GoogleService-Info.plist */; };
+		22F70EC11E6476C300651022 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F70EC01E6476C300651022 /* RoundTextField.swift */; };
+		22F70EC31E647F2200651022 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F70EC21E647F2200651022 /* RoundedButton.swift */; };
 		F086B7AC8BC047C99A7AA18A /* Pods_DevChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F887B1582CBEFFD8CD45E68 /* Pods_DevChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 		221AA5D21E576F810024F66D /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
 		221AA5D31E576F810024F66D /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
 		2283708C1E5F409C0023F2D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22F70EC01E6476C300651022 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		22F70EC21E647F2200651022 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		548E797B85EEBD927BA9F1E7 /* Pods-DevChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevChat/Pods-DevChat.debug.xcconfig"; sourceTree = "<group>"; };
 		6F887B1582CBEFFD8CD45E68 /* Pods_DevChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FA6DC56F6DB7BE3E854FE1 /* Pods-DevChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevChat/Pods-DevChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 			children = (
 				221AA5CF1E576E420024F66D /* AVCamPreviewView.h */,
 				221AA5D01E576E420024F66D /* AVCamPreviewView.m */,
+				22F70EC01E6476C300651022 /* RoundTextField.swift */,
+				22F70EC21E647F2200651022 /* RoundedButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 				221AA5B61E57696E0024F66D /* CameraVC.swift in Sources */,
 				221AA5B41E57696E0024F66D /* AppDelegate.swift in Sources */,
 				221AA5CA1E576DCB0024F66D /* AVCamCameraViewController.m in Sources */,
+				22F70EC31E647F2200651022 /* RoundedButton.swift in Sources */,
+				22F70EC11E6476C300651022 /* RoundTextField.swift in Sources */,
 				221AA5D11E576E420024F66D /* AVCamPreviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
