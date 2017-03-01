@@ -16,6 +16,9 @@
 		221AA5D11E576E420024F66D /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AA5D01E576E420024F66D /* AVCamPreviewView.m */; };
 		221AA5D41E576F810024F66D /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AA5D31E576F810024F66D /* AVCamPhotoCaptureDelegate.m */; };
 		226B082F1E67647F006C34D4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226B082E1E67647F006C34D4 /* DataService.swift */; };
+		226B08311E6768A3006C34D4 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226B08301E6768A3006C34D4 /* UsersVC.swift */; };
+		226B08331E676A33006C34D4 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226B08321E676A33006C34D4 /* UserCell.swift */; };
+		226B08351E676EEB006C34D4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226B08341E676EEB006C34D4 /* User.swift */; };
 		2283708D1E5F409C0023F2D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2283708C1E5F409C0023F2D4 /* GoogleService-Info.plist */; };
 		22F70EC11E6476C300651022 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F70EC01E6476C300651022 /* RoundTextField.swift */; };
 		22F70EC31E647F2200651022 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F70EC21E647F2200651022 /* RoundedButton.swift */; };
@@ -41,6 +44,9 @@
 		221AA5D21E576F810024F66D /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
 		221AA5D31E576F810024F66D /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
 		226B082E1E67647F006C34D4 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		226B08301E6768A3006C34D4 /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		226B08321E676A33006C34D4 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		226B08341E676EEB006C34D4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2283708C1E5F409C0023F2D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22F70EC01E6476C300651022 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		22F70EC21E647F2200651022 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
@@ -104,6 +110,7 @@
 				221AA5BC1E57696E0024F66D /* LaunchScreen.storyboard */,
 				221AA5BF1E57696E0024F66D /* Info.plist */,
 				2283708C1E5F409C0023F2D4 /* GoogleService-Info.plist */,
+				226B08341E676EEB006C34D4 /* User.swift */,
 			);
 			path = DevChat;
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 				221AA5D01E576E420024F66D /* AVCamPreviewView.m */,
 				22F70EC01E6476C300651022 /* RoundTextField.swift */,
 				22F70EC21E647F2200651022 /* RoundedButton.swift */,
+				226B08321E676A33006C34D4 /* UserCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 				221AA5C71E576DCB0024F66D /* AVCamCameraViewController.m */,
 				221AA5B51E57696E0024F66D /* CameraVC.swift */,
 				22F70EC41E64835E00651022 /* LoginVC.swift */,
+				226B08301E6768A3006C34D4 /* UsersVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -291,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226B08351E676EEB006C34D4 /* User.swift in Sources */,
 				221AA5D41E576F810024F66D /* AVCamPhotoCaptureDelegate.m in Sources */,
 				221AA5B61E57696E0024F66D /* CameraVC.swift in Sources */,
 				22F70EC51E64835E00651022 /* LoginVC.swift in Sources */,
@@ -299,6 +309,8 @@
 				221AA5CA1E576DCB0024F66D /* AVCamCameraViewController.m in Sources */,
 				22F70EC31E647F2200651022 /* RoundedButton.swift in Sources */,
 				22F70EC11E6476C300651022 /* RoundTextField.swift in Sources */,
+				226B08331E676A33006C34D4 /* UserCell.swift in Sources */,
+				226B08311E6768A3006C34D4 /* UsersVC.swift in Sources */,
 				221AA5D11E576E420024F66D /* AVCamPreviewView.m in Sources */,
 				226B082F1E67647F006C34D4 /* DataService.swift in Sources */,
 			);
