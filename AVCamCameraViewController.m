@@ -794,6 +794,10 @@ typedef NS_ENUM( NSInteger, AVCamLivePhotoMode ) {
 		success = [error.userInfo[AVErrorRecordingSuccessfullyFinishedKey] boolValue];
 	}
 	if ( success ) {
+        
+        [self.delegate videoRecordingComplete:outputFileURL];
+        
+        /*
 		// Check authorization status.
 		[PHPhotoLibrary requestAuthorization:^( PHAuthorizationStatus status ) {
 			if ( status == PHAuthorizationStatusAuthorized ) {
@@ -814,8 +818,10 @@ typedef NS_ENUM( NSInteger, AVCamLivePhotoMode ) {
 				cleanup();
 			}
 		}];
+         */
 	}
 	else {
+        [self.delegate videoRecordFailed];
 		cleanup();
 	}
 	
